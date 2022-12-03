@@ -1,0 +1,66 @@
+.container{
+    width: 200px;
+    margin-inline: auto;
+}
+.traffic-lights{
+    background-color: gray;
+    padding: 10px;
+}
+.light{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.red{
+    width: 90px;
+    height: 90px;
+    background-color: red;
+    animation: 13s red infinite;
+}
+.yellow{
+    width: 90px;
+    height: 90px;
+    background-color: yellow;
+    animation: 13s yellow infinite;
+
+}
+.green{
+    width: 90px;
+    height: 90px;
+    background-color: green;
+    animation: 13s green infinite;
+
+}
+
+@keyframes red{
+    0%{opacity: 1}
+    20%{opacity: 1}
+    40%{opacity: .1}
+    60%{opacity: .1}
+    80%{opacity: .1}
+    100%{opacity: .1}
+  }
+  
+  @keyframes yellow{
+    0%{opacity: .1}
+    20%{opacity: .1}
+    40%{opacity: 1}
+    50%{opacity: .1}
+    60%{opacity: .1}
+    80%{opacity: .1}
+    86%{opacity: 1}
+    100%{opacity: 1}
+  }
+  
+  @keyframes green{
+    0%{opacity: .1}
+    40%{opacity: .1}
+    60%{opacity: 1}
+    80%{opacity: 1}
+    83%{opacity: .1}
+    100%{opacity: .1}
+  }
